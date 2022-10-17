@@ -1,0 +1,166 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #038554;
+  color: #fff;
+}
+
+#container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+#navbar {
+  padding-bottom: 4.5rem;
+}
+
+#navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+#contact,
+#pricing,
+#download {
+  padding: 8px 18px;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.video {
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .video {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+.problems {
+  text-align: center;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+#features-1 {
+  padding: 2% 15% 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.emojis {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #03bb85;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricingg {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call To Action Section*/
+
+#cta {
+  background-color: #68dbbb;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta-text {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
